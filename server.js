@@ -1,7 +1,7 @@
 const express = require('express');
 const { default: mongoose } = require('mongoose');
 const app = express();
-const morgan = require('morgan')
+const morgan = require('morgan');
 const routes = require('./routes/api');
 
 
